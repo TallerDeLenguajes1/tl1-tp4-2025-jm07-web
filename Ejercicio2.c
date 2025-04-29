@@ -56,10 +56,10 @@ int main() {
     } while (confirmacion == 1);
 
     //Muestro la lista de pendientes
-    void MostrarLinea();
+    MostrarLinea();
     printf("\nLista de pendientes: \n");
     mostrarLista(&listaDePendientes);
-    void MostrarLinea();
+    MostrarLinea();
 
     //Interfaz para elegir qué tareas de pendientes pasar a realizadas
     confirmacion = 0;
